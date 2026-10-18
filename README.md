@@ -5,6 +5,7 @@ This configuration - non-inverting with DC Biasing
 
 To ensure a clean and stable power supply, the circuit uses the LP5907 low-noise LDO regulator, featuring an output noise level of just 6.5 µV RMS.
 
+<img width="1256" height="603" alt="obraz" src="https://github.com/user-attachments/assets/006533d1-ce2b-4f80-93cc-8e0c88a92892" />
 
 
 ### TPH2861Q — Pinout
