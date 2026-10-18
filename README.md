@@ -1,3 +1,4 @@
+# TPH2861 
 
 The current design uses a non-inverting amplifier configuration with a voltage gain of 21 V/V.
 
