@@ -1,14 +1,10 @@
 # TPH2861 
 
-The current design uses a non-inverting amplifier configuration with a voltage gain of 21 V/V.
-
-This configuration - non-inverting with DC Biasing
+The current design uses a non-inverting amplifier configuration with a voltage gain of 21 V/V. In addition DC Biasing is included 
 
 To ensure a clean and stable power supply, the circuit uses the LP5907 low-noise LDO regulator, featuring an output noise level of just 6.5 µV RMS.
 
 <img width="740" height="626" alt="obraz" src="https://github.com/user-attachments/assets/a3824e7e-b370-4dcc-b48a-8e635149e3da" />
-
-
 
 ### TPH2861Q — Pinout
 
@@ -22,4 +18,4 @@ To ensure a clean and stable power supply, the circuit uses the LP5907 low-noise
 | 6 | OUT | Output | Amplified signal output. |
 | 7 | NC | Not Connected | GND. |
 
-**Note:** FB is an output feedback connection located closer to the input pins than OUT, allowing a shorter feedback path and improved high-frequency PCB layout.
+R1 and R2 resistors allow for quick Gain control if needed 
